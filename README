@@ -2,19 +2,21 @@
 
 Hi! I’m **Shubhada** 👋
 
-I created this template as a way to **practice LeetCode's Blind 75 problems while traveling**, especially on long flights without Wi-Fi. As I started putting it together for myself, I realized it could be helpful for others too — so I’ve made it clean, structured, and easy to use offline.
+I built this template so I could **practice LeetCode’s Blind 75 problems while traveling**, especially on long flights without Wi-Fi. After realizing it might help others too, I cleaned it up and made it easy to use **completely offline**.
 
-Whether you're prepping for interviews, brushing up on core patterns, or just looking for an organized way to work through the Blind 75, I hope this helps you stay consistent and focused — even without internet access. ✈️💻
+Whether you’re prepping for interviews, brushing up on core patterns, or just looking for an organized way to work through Blind 75, I hope this repo keeps you consistent and focused — even without internet access. ✈️💻
 
 ---
 
 ## 📦 What’s Included
 
-- ✅ **Pre-created files** for all Blind75 problems  
-- ✅ **Topic folders** for structured practice (e.g. Arrays, Trees, Sliding Window)  
-- ✅ **PDF of Blind75 question prompts** (for offline use)  
-- ✅ **NeetCode’s Python solutions and hints inside the `ResourcesFromNeetcode/` folder**  
-- ✅ Clean problem-by-problem setup to write and test your own code  
+| ✅ | Item |
+|----|------|
+| **Pre-created files** for every Blind 75 problem |
+| **Topic folders** for structured practice (Arrays, Trees, Sliding Window, …) |
+| **`blind75_questions.pdf`** — all prompts offline |
+| **NeetCode resources** (`ResourcesFromNeetcode/`): full Python solutions & hints |
+| Lightweight starter stubs so you can code & run tests locally |
 
 ---
 
@@ -25,8 +27,8 @@ Blind75Prep/
 ├── Arrays&Hashing/
 │   ├── TwoSum.py
 │   ├── ...
-├── Trees/
 ├── SlidingWindow/
+├── Trees/
 ├── ...
 ├── ResourcesFromNeetcode/
 │   ├── neetcode-hints/
@@ -39,32 +41,27 @@ Blind75Prep/
 
 ## ⚙️ How to Use
 
-### ✍️ 1. Write Your Solution
-
-Each file contains a function stub. You can implement your solution in that file.
+### 1️⃣  Write Your Solution  
+Each file has a stub you can fill in:
 
 ```python
 # Arrays&Hashing/TwoSum.py
-
 def twoSum(nums, target):
-    # your code here
+    # ✍️  your code here
     pass
 ```
 
 ---
 
-### 🧪 2. Test Your Solution
+### 2️⃣  Test Your Solution (manual for now)  
 
-This template **does not include an automatic test runner** (yet).  
-You should:
-
-- Write your own test function (example below)
-- Manually define inputs and expected outputs
+> An automatic test runner is planned.  
+> For now, add a quick check function:
 
 ```python
 def check(fn, args, expected):
     out = fn(*args)
-    print("✅ PASS" if out == expected else f"❌ FAIL: got {out}, expected {expected}")
+    print("✅ PASS" if out == expected else f"❌ FAIL  – got {out}, expected {expected}")
 
 if __name__ == "__main__":
     check(twoSum, ([2, 7, 11, 15], 9), [0, 1])
@@ -72,43 +69,40 @@ if __name__ == "__main__":
 
 ---
 
-### ▶️ 3. Run the File
-
-Open the terminal in VS Code and run the file with:
+### 3️⃣  Run the File
 
 ```bash
 python Arrays&Hashing/TwoSum.py
 ```
 
-Make sure you have Python installed and selected in VS Code.
+Make sure your VS Code interpreter is set to Python.
 
 ---
 
-### 🧠 4. Compare with NeetCode’s Solution
+### 4️⃣  Compare with NeetCode
 
-After writing and testing your own solution, check NeetCode’s official solution inside:
+After solving, open the matching reference in  
+`ResourcesFromNeetcode/neetcode-python-solutions/` to:
 
-```
-ResourcesFromNeetcode/neetcode-python-solutions/
-```
-
-Use it to:
-
-- Compare logic and structure
-- Understand optimizations and tradeoffs
-- Learn Pythonic best practices
+- Compare logic & structure  
+- Spot optimizations  
+- Learn Pythonic patterns  
 
 ---
 
-## 💡 Tips
+## 💡  Tips
 
-- Reference `neetcode-python-solutions/` after solving each problem
-- Write notes or mistakes in comments for future review
-- You can expand this setup with `pytest`, CLI tools, or Jupyter notebooks later
+- Keep notes or edge-case gotchas in comments right inside the file.  
+- When you’re ready, add `pytest` or your favorite framework for faster feedback.  
+- Feel free to fork & tweak the folder names or add your own problems.
 
 ---
 
-## 📚 Credits
+## 📚  Credits
 
-- Problem statements adapted from LeetCode
-- Solutions and hints from the [NeetCode GitHub repo](https://github.com/neetcode-gh/leetcode)
+- Problem statements adapted from **LeetCode**  
+- Solutions & hints sourced from the awesome [**NeetCode repo**](https://github.com/neetcode-gh/leetcode)
+
+---
+
+*Happy coding & good luck on your interview prep!* 🚀
