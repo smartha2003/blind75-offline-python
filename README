@@ -10,32 +10,30 @@ Whether you're prepping for interviews, brushing up on core patterns, or just lo
 
 ## 📦 What’s Included
 
-- ✅ **Pre-created files** for all Blind75 problems
-- ✅ **Topic folders** for structured practice (e.g. Arrays, Trees, Sliding Window)
-- ✅ **PDF of Blind75 question prompts** (for offline use)
-- ✅ **NeetCode’s Python solutions and hints inside the `ResourcesFromNeetcode/` folder**
-- ✅ Clean problem-by-problem setup to write and test your own code
+- ✅ **Pre-created files** for all Blind75 problems  
+- ✅ **Topic folders** for structured practice (e.g. Arrays, Trees, Sliding Window)  
+- ✅ **PDF of Blind75 question prompts** (for offline use)  
+- ✅ **NeetCode’s Python solutions and hints inside the `ResourcesFromNeetcode/` folder**  
+- ✅ Clean problem-by-problem setup to write and test your own code  
 
 ---
 
 ## 🗂 Folder Structure
 
 ```
-
 Blind75Prep/
-├── Arrays\&Hashing/
+├── Arrays&Hashing/
 │   ├── TwoSum.py
 │   ├── ...
 ├── Trees/
-├── Sliding Window/
+├── SlidingWindow/
 ├── ...
 ├── ResourcesFromNeetcode/
 │   ├── neetcode-hints/
 │   └── neetcode-python-solutions/
-├── blind75\_questions.pdf
+├── blind75_questions.pdf
 └── README.md
-
-````
+```
 
 ---
 
@@ -45,28 +43,23 @@ Blind75Prep/
 
 Each file contains a function stub. You can implement your solution in that file.
 
-Example:
 ```python
 # Arrays&Hashing/TwoSum.py
 
 def twoSum(nums, target):
     # your code here
     pass
-````
+```
 
 ---
 
 ### 🧪 2. Test Your Solution
 
-At the moment, this template **does not include an automatic test runner**.
+This template **does not include an automatic test runner** (yet).  
+You should:
 
-A future addition will include test frameworks like `pytest` or a CLI runner.
-**For now**, you should:
-
-* Write your own test function (see below)
-* Manually define inputs and expected outputs
-
-Example:
+- Write your own test function (example below)
+- Manually define inputs and expected outputs
 
 ```python
 def check(fn, args, expected):
@@ -93,7 +86,7 @@ Make sure you have Python installed and selected in VS Code.
 
 ### 🧠 4. Compare with NeetCode’s Solution
 
-After testing your own solution, you can open the corresponding NeetCode version inside:
+After writing and testing your own solution, check NeetCode’s official solution inside:
 
 ```
 ResourcesFromNeetcode/neetcode-python-solutions/
@@ -101,30 +94,27 @@ ResourcesFromNeetcode/neetcode-python-solutions/
 
 Use it to:
 
-* Compare structure and logic
-* Understand tradeoffs or optimizations
-* Learn different Python idioms
+- Compare logic and structure
+- Understand optimizations and tradeoffs
+- Learn Pythonic best practices
 
 ---
 
 ## 💡 Tips
 
-* Use the `ResourcesFromNeetcode/neetcode-python-solutions/` folder to reference clean solutions after you’ve tried it yourself.
-* Record mistakes or notes in each file as comments.
-* You can expand this setup with `pytest`, CLI interfaces, or Jupyter notebooks later.
+- Reference `neetcode-python-solutions/` after solving each problem
+- Write notes or mistakes in comments for future review
+- You can expand this setup with `pytest`, CLI tools, or Jupyter notebooks later
 
 ---
 
 ## 📚 Credits
 
-* Problem statements adapted from LeetCode
-* Solutions and hints sourced from the [NeetCode GitHub repo](https://github.com/neetcode-gh/leetcode)
+- Problem statements adapted from LeetCode
+- Solutions and hints from the [NeetCode GitHub repo](https://github.com/neetcode-gh/leetcode)
 
 ---
 
 Let me know if you’d like me to help write a future test automation script as part of your repo!
 
-```
-
-Let me know if you'd like a ready-made `test_runner.py` you can reuse across files to speed up your testing process!
 ```
