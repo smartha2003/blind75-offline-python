@@ -24,7 +24,7 @@ Whether you’re prepping for interviews, brushing up on core patterns, or just 
 
 ```
 Blind75Prep/
-├── Arrays&Hashing/
+├── ArraysAndHashing/
 │   ├── TwoSum.py
 │   ├── ...
 ├── SlidingWindow/
@@ -45,7 +45,7 @@ Blind75Prep/
 Each file has a stub you can fill in:
 
 ```python
-# Arrays&Hashing/TwoSum.py
+# ArraysAndHashing/TwoSum.py
 def twoSum(nums, target):
     # ✍️  your code here
     pass
@@ -72,7 +72,7 @@ if __name__ == "__main__":
 ### 3️⃣  Run the File
 
 ```bash
-python Arrays&Hashing/TwoSum.py
+python ArraysAndHashing/TwoSum.py
 ```
 
 Make sure your VS Code interpreter is set to Python.
