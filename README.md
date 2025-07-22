@@ -14,7 +14,7 @@ Whether you’re prepping for interviews, brushing up on core patterns, or just 
 |----|------|
 | **Pre-created files** for every Blind 75 problem |
 | **Topic folders** for structured practice (Arrays, Trees, Sliding Window, …) |
-| **`blind75_questions.pdf`** — all prompts offline |
+| **`blind75_questions.pdf`** — all prompts offline (PDF compiled by **AlgoTutor**) |
 | **NeetCode resources** (`ResourcesFromNeetcode/`): full Python solutions & hints |
 | Lightweight starter stubs so you can code & run tests locally |
 
@@ -101,7 +101,8 @@ After solving, open the matching reference in
 ## 📚  Credits
 
 - Problem statements adapted from **LeetCode**  
-- Solutions & hints sourced from the awesome [**NeetCode repo**](https://github.com/neetcode-gh/leetcode)
+- Solutions & hints sourced from the awesome [**NeetCode repo**](https://github.com/neetcode-gh/leetcode)  
+- PDF of all prompts compiled by **AlgoTutor**
 
 ---
 
