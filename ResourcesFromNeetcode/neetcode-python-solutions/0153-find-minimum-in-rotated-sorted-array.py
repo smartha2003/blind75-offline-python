@@ -1,5 +1,5 @@
 class Solution:
-    def findMin(self, nums: List[int]) -> int:
+    def findMin(self, nums: list[int]) -> int:
         start , end = 0, len(nums) - 1 
         curr_min = float("inf")
         

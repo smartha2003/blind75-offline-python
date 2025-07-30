@@ -1,5 +1,5 @@
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         groups = {}
 
         # Iterate over strings
@@ -20,7 +20,7 @@ class Solution:
             
         return list(groups.values())
     
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         ans = collections.defaultdict(list)
 
         for s in strs:
